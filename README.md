@@ -1,7 +1,7 @@
 # MikroTik Syslog Manager
 
 Een professionele Syslog-server voor MikroTik RouterOS met een grafische interface, realtime analyse en beveiligingsmonitoring.
-
+## Disclaimer alleen voor prive gebruik. er kunnen geen rechten ontleent worden aan het gebruik van deze tool ##
 ## Beschrijving
 
 Dit project biedt een lokale syslog-server die syslog-berichten kan ontvangen via UDP en/of TCP. Het is speciaal gericht op MikroTik-logboeken en levert:
@@ -147,6 +147,8 @@ python -m unittest tests.test_sorting
 ## Tips
 
 - Als `tkinter` ontbreekt, installeer het via je pakketbeheerder (`sudo apt install python3-tk`).
+
+  
 - Zonder `matplotlib` werkt de app gewoon, maar zijn de grafiek-tabbladen uitgeschakeld.
 
 ## Licentie
